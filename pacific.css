@@ -1,0 +1,125 @@
+header, nav, main, section, article, aside, footer, figure, figcaption { display:block; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background: linear-gradient(to bottom, #cfe8fa 0px, #00569f 300px, #003366 100%) fixed;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 70%;
+  min-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+header{
+  background:url("sunset.jpg") center/cover no-repeat;
+  padding:18px 16px;
+}
+header h1{
+  margin:0;
+  color:white;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+nav{
+  float:left;
+  width:190px;
+  background :#3399cc;
+  padding:18px 16px 24px;
+  box-sizing:border-box;
+  position: absolute;
+  top: 72px;
+  bottom: 0;
+}
+#wrapper {
+  position :  relative
+}
+nav ul{ list-style:none; margin:0; padding:0; }
+nav li{ margin:6px 0;  font-weight: bold; }
+nav a{ text-decoration:none; color:#000; }
+
+#content{
+  margin-left:200px;
+  padding:20px;
+  box-sizing:border-box;
+}
+h2{ color: #3399CC; margin:0 1px 20px; font-family: Georgia,"Times New Roman", Serif ; }
+
+aside{
+  float:right;
+  width:240px;
+  background:#e9f2fb;
+  padding:12px 14px;
+  box-sizing:border-box;
+  margin:0 auto;
+}
+
+img {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 100%;
+    width: 320px;
+}
+
+#contact {
+    font-size: 90%;
+    margin: 20px 0;
+    clear: both;
+}
+#content ul {
+  list-style: none;
+  margin: 12px 0;
+padding: 0 0 0 25px;
+ clear: both;
+}
+
+#content ul li {
+   display: block;  
+  background: url("marker.gif") no-repeat 0 6px;
+  background-repeat: no-repeat;
+  background-position: 0 6px;
+  background-size: 12px 12px;
+  padding-left: 20px;
+  margin: 6px 0;
+   
+}
+
+p{ margin:0 0 10px; line-height:1.5; }
+.resort{ color:#3399cc; font-weight:bold; }
+
+a{ color:#0a5da6; text-decoration:none; }
+a:hover{ color: #fff; }
+
+footer{
+  clear:both;
+  background:#fff;
+  color:#666;
+  font-size:.85em;
+  padding:1px 10px 1px 220px;
+  border-top:none;
+  text-align:left;
+}
+footer a{ color:#0a5da6; text-decoration:none; }
+
+@media (max-width:760px){
+  nav{ float:none; width:auto; }
+  #content{ margin-left:0; }
+  aside{ float:none; width:auto; margin:10px 0; }
+}
